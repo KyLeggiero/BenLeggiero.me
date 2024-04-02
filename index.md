@@ -51,17 +51,20 @@ portal:
             flex-horiz: center
             items:
                 -
-                    style: mediumEmphasisButton
+                    style: button
+                    buttonClass: low-emphasis
                     title: Mastodon
                     url: https://Mastodon.Social/@KyLeggiero
                     fontAwesomeIcon: fab fa-mastodon
                 -
-                    style: mediumEmphasisButton
+                    style: button
+                    buttonClass: low-emphasis
                     title: Telegram
                     url: https://t.me/KyLeggiero
                     fontAwesomeIcon: fab fa-telegram
                 -
-                    style: mediumEmphasisButton
+                    style: button
+                    buttonClass: low-emphasis
                     title: LinkedIn
                     url: https://LinkedIn.com/in/ky-leggiero
                     fontAwesomeIcon: fab fa-linkedin
