@@ -27,10 +27,10 @@ portal:
                 -
                     style: card
                     title: Scheduling
-                    description: View my availability & schedule meetings with me
+                    description: Schedule meetings & calls with me, and check my availability
                     url: /Scheduling
-                    thumbnailUrl-light: /images/Portal-Thumbnails/Calendar/Light Mode.svg
-                    thumbnailUrl-dark: /images/Portal-Thumbnails/Calendar/Dark Mode.svg
+                    thumbnailUrl-light: /images/Portal-Thumbnails/Scheduling/Light Mode.jpg
+                    thumbnailUrl-dark: /images/Portal-Thumbnails/Scheduling/Dark Mode.jpg
                     openNewTab: false
                 -
                     style: card
