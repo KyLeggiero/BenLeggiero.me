@@ -3,7 +3,7 @@ layout: portal
 
 date:
     published: 2020-02-03 23:45 MT
-    modified: 2022-04-04 11:00 -0600
+    modified: 2024-03-22 17:00 MT
 
 page-specific-stylesheets:
     - /styles/portal.css
@@ -27,10 +27,10 @@ portal:
                 -
                     style: card
                     title: Scheduling
-                    description: View my availability & schedule meetings with me
+                    description: Schedule meetings & calls with me, and check my availability
                     url: /Scheduling
-                    thumbnailUrl-light: /images/Portal-Thumbnails/Calendar/Light Mode.svg
-                    thumbnailUrl-dark: /images/Portal-Thumbnails/Calendar/Dark Mode.svg
+                    thumbnailUrl-light: /images/Portal-Thumbnails/Scheduling/Light Mode.jpg
+                    thumbnailUrl-dark: /images/Portal-Thumbnails/Scheduling/Dark Mode.jpg
                     openNewTab: false
                 -
                     style: card
@@ -51,17 +51,20 @@ portal:
             flex-horiz: center
             items:
                 -
-                    style: mediumEmphasisButton
+                    style: button
+                    buttonClass: low-emphasis
                     title: Mastodon
                     url: https://Mastodon.Social/@KyLeggiero
                     fontAwesomeIcon: fab fa-mastodon
                 -
-                    style: mediumEmphasisButton
-                    title: Twitter
-                    url: https://Twitter.com/KyLeggiero
-                    fontAwesomeIcon: fab fa-twitter
+                    style: button
+                    buttonClass: low-emphasis
+                    title: Telegram
+                    url: https://t.me/KyLeggiero
+                    fontAwesomeIcon: fab fa-telegram
                 -
-                    style: mediumEmphasisButton
+                    style: button
+                    buttonClass: low-emphasis
                     title: LinkedIn
                     url: https://LinkedIn.com/in/ky-leggiero
                     fontAwesomeIcon: fab fa-linkedin
@@ -73,13 +76,15 @@ portal:
                 -
                     style: titledLink
                     title: eMail
-                    note: Feel free to send me eMails!
-                    display: Ky<wbr/>@KyLeggiero.me
-                    url: mailto:Ky@KyLeggiero.me
+                    note: Send me all the eMails you wanna!
+                    display: Howdy<wbr/>@KyLeggiero.me
+                    url: mailto:Howdy@KyLeggiero.me
                     materialIcon: email
                 -
                     style: titledLink
                     title: Phone Number
-                    note: Contact me via eMail first 🙂
+                    note: Feel free to <a href="/Scheduling">schedule a call with me any time!</a>
+                    display: Schedule a call
+                    url: /Scheduling
                     materialIcon: phone
 ---
