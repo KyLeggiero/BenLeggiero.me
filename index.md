@@ -53,6 +53,12 @@ portal:
                 -
                     style: button
                     buttonClass: low-emphasis
+                    title: GitHub
+                    url: https://GitHub.com/KyLeggiero
+                    fontAwesomeIcon: fab fa-github
+                -
+                    style: button
+                    buttonClass: low-emphasis
                     title: Mastodon
                     url: https://Mastodon.Social/@KyLeggiero
                     fontAwesomeIcon: fab fa-mastodon
