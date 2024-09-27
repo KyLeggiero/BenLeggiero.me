@@ -32,13 +32,13 @@ portal:
                     thumbnailUrl-light: /images/Portal-Thumbnails/Scheduling/Light Mode.jpg
                     thumbnailUrl-dark: /images/Portal-Thumbnails/Scheduling/Dark Mode.jpg
                     openNewTab: false
-                -
-                    style: card
-                    title: Blog
-                    description: My blog, where I post thoughts and ideas too complex for a tweet
-                    url: https://Blog.KyLeggiero.me
-                    thumbnailUrl-light: /images/Portal-Thumbnails/Blog/Light Mode.svg
-                    thumbnailUrl-dark: /images/Portal-Thumbnails/Blog/Dark Mode.svg
+                # -
+                #     style: card
+                #     title: Blog
+                #     description: My blog, where I post thoughts and ideas too complex for a tweet
+                #     url: https://Blog.KyLeggiero.me
+                #     thumbnailUrl-light: /images/Portal-Thumbnails/Blog/Light Mode.svg
+                #     thumbnailUrl-dark: /images/Portal-Thumbnails/Blog/Dark Mode.svg
                 -
                     style: card
                     title: Recipes
